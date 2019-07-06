@@ -21,7 +21,11 @@ h5 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    color: gray
+    color: gray;
+}
+
+p.a {
+    line-height: 2
 }
 
 hr {
@@ -33,7 +37,7 @@ hr {
     background: white;
     margin-top: 50px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 .title {
