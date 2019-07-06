@@ -60,6 +60,7 @@ hr {
     padding-right: 10px
 }
 
+
 #indexrow {
     margin-left: -90px;
     margin-right: -90px;
@@ -76,5 +77,25 @@ hr {
     margin-top: 70px;
     margin-left: -50px;
     margin-right: -50px;
+    padding-left: 30px;
     background-color: white
+}
+
+#data {
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 30px;
+    background-color: white
+}
+
+#subtitle {
+    color: darkturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center
+}
+
+#c {
+    color: black
 }
