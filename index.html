@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/index.html">Latitude</a>
+        <a class="navbar-brand text-white" href="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,9 +39,9 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-7">
-                <h5 >Summary: Latitude vs. X</h5>
+        <div class="row" id="indexrow">
+            <div class="col-8" id="index">
+                <h5 class="title">Summary: Latitude vs. X</h5>
                 <hr>
                 <div >
                     <img src="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/Resources/assets/images/Fig1.png" class="w-50" alt="Fig1" style="padding: 0 15px; float: left">
@@ -58,11 +58,11 @@
                     <p style="margin-top: 20px"></p>
                 </div>
             </div>
-            <div class="col-5">
-                <h5>Visualizations</h5>
+            <div class="col" id="index">
+                <h5 class="title">Visualizations</h5>
                 <hr>
                 <div class="container">
-                    <div class="row">
+                    <div class="row" id="visrow">
                         <div class="col">
                             <a href="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/temp.html">
                                 <img src="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/Resources/assets/images/Fig1.png"  class="mw-100" alt="Fig1">
@@ -74,7 +74,7 @@
                             </a>  
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" id="visrow">
                         <div class="col">
                             <a href="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/cloudiness.html">
                             <img src="/Users/ganjin/Google Drive/BootcampHomework/11-web_visualization_dashboard/Resources/assets/images/Fig3.png"  class="mw-100" alt="Fig3">
@@ -90,7 +90,6 @@
             </div>
         </div>
     </div>
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,0 +1,73 @@
+body {
+    background: gainsboro
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkturquoise;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkturquoise;
+    margin-bottom: 0px
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+
+#index {
+    background: white;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    padding: 30px
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darkturquoise
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#indexrow {
+    margin-left: -90px;
+    margin-right: -90px
+}
+
+#visrow {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
