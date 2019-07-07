@@ -36,8 +36,8 @@ hr {
 #index {
     background: white;
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 .title {
@@ -46,7 +46,9 @@ hr {
 
 .navbar {
     padding-top: 0px;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+    background-color: white;
+    padding: 0px
 }
 
 .navbar-brand {
@@ -102,4 +104,36 @@ hr {
 
 #c {
     color: black
+}
+
+.dropdown-menu {
+    border: 0px;
+}
+
+.dropdown-item {
+    color: grey
+}
+
+#hr {
+    visibility: hidden
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: darkturquoise;
+    }
+
+    #navbarNavDropdown{
+        background-color: white
+    }
+
+    #index {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-bottom: 20px
+    }
+
+    #hr {
+        visibility: visible
+    }
 }
